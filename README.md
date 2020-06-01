@@ -14,3 +14,4 @@
 Notes: 
 1. Each script should have it's own commit. There can be more than two commits.
 2. Create a branch named assignment1 to solve this problem and push commits to it.
+3. Unit Tests are mandatory (TDD is recommended)
