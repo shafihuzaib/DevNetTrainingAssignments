@@ -1,0 +1,12 @@
+---
+# YAML allows comments, super useful!
+ACCT700:
+  paid: 60
+  due: 100
+ACCT800:
+  paid: 70
+  due: 60
+ACCT900:
+  paid: 0
+  due: 0
+...
