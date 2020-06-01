@@ -1,6 +1,5 @@
 import json
 from pprint import pprint
-li=[]
 with open("data/dnac_devices.json") as dnc:
     data = json.load(dnc)
     for d in data["response"]:
