@@ -43,7 +43,7 @@ Notes: `<image_name>, <script>, <host_port>` and such variables in `commands` an
 4. Go for following Docker tasks (.. and experiment with more):
       - Using `docker build -t <image_name> .` build a docker image
       - Using `docker run -p <host_port>:80 <image_name>` run the docker image
-      - Check in your browser the output of your scripts `http://localhost:<host:port>/<script>.py`
+      - Check in your browser the output of your scripts `http://localhost:<host_port>/<script>.py`
       - Using `docker container ls`, check the running status of the containers
       - Using `docker stop <container_id>` stop the container
       - Using `docker-compose up` bring up the containers again
