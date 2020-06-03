@@ -1,5 +1,5 @@
 
-#Assignment 1
+# Assignment 1
 
 1. Fork this repository
 2. Clone the fork onto your local dev
@@ -17,7 +17,7 @@ Notes:
 3. Unit Tests are mandatory (TDD is recommended)
 
 
-##Assignment 2
+# Assignment 2
 
 APIs
 
@@ -33,7 +33,7 @@ x-auth-token header
 3. Modularize the code as much as possible
 
 
-#Assignment 3#
+# Assignment 3
 
 Notes: `<image_name>, <script>, <host_port>` and such variables in `commands` and inside `docker-compose.yml` are left for a value to be decided by the developer. So assign appropriate values before running and code commit.
 
