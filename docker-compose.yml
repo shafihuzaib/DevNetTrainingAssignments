@@ -1,0 +1,21 @@
+version: '3'
+#Create two containers from the same image
+services:
+  python_cgi:
+    build: . # build image from current directory's Dockerfile
+    image: composed_python_cgi:latest # tag the image to be python_cgi:latest
+    container_name: python_cgi_container # name the container
+    ports:
+      - <host_port>:80 # bind container's port 80 with <host_port>
+    environment:
+      EXAMPLE_ENV_VARIABLE: some_value # Example of environment variable available inside container
+
+  copy_python_cgi: # Create another container from the above-built image
+    image: composed_python_cgi
+    volumes:
+      - ./:/var/www/html # mount current directory onto /var/www/html
+    ports:
+      - <host_post_2>:80
+    environment:
+      APP_DEBUG: "true"
+    
